@@ -1,0 +1,181 @@
+{
+    "access_token": "ncXu47zVsJFLPsQ",
+    "model_version": "crop_health:1.2.1",
+    "custom_id": null,
+    "input": {
+        "latitude": 49.207,
+        "longitude": 16.608,
+        "similar_images": true,
+        "images": [
+            "https://crop.kindwise.com/media/images/e1524082da2a482da5e1060827b0b918.jpg"
+        ],
+        "datetime": "2025-03-11T10:11:54.381458+00:00"
+    },
+    "result": {
+        "is_plant": {
+            "probability": 0.9974366,
+            "threshold": 0.5,
+            "binary": true
+        },
+        "disease": {
+            "suggestions": [
+                {
+                    "id": "f22fbc7e877b750d",
+                    "name": "nutrient deficiency",
+                    "probability": 0.5457,
+                    "similar_images": [
+                        {
+                            "id": "680a83131ef3d25a40d60ad9328bf46b723ba91e",
+                            "url": "https://crop-health.ams3.cdn.digitaloceanspaces.com/similar_images/1/680/a83131ef3d25a40d60ad9328bf46b723ba91e.jpg",
+                            "license_name": "CC BY-NC-SA 4.0",
+                            "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+                            "citation": "FlowerChecker s.r.o.",
+                            "similarity": 0.612,
+                            "url_small": "https://crop-health.ams3.cdn.digitaloceanspaces.com/similar_images/1/680/a83131ef3d25a40d60ad9328bf46b723ba91e.small.jpg"
+                        },
+                        {
+                            "id": "767c2ff8bf1d0ff19c28068ac62bd257088a8858",
+                            "url": "https://crop-health.ams3.cdn.digitaloceanspaces.com/similar_images/1/767/c2ff8bf1d0ff19c28068ac62bd257088a8858.jpg",
+                            "license_name": "CC BY-NC-SA 4.0",
+                            "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+                            "citation": "FlowerChecker s.r.o.",
+                            "similarity": 0.611,
+                            "url_small": "https://crop-health.ams3.cdn.digitaloceanspaces.com/similar_images/1/767/c2ff8bf1d0ff19c28068ac62bd257088a8858.small.jpg"
+                        }
+                    ],
+                    "details": {
+                        "language": "en",
+                        "entity_id": "f22fbc7e877b750d"
+                    },
+                    "scientific_name": "nutrient deficiency"
+                },
+                {
+                    "id": "c35556c0c67c0591",
+                    "name": "healthy",
+                    "probability": 0.2695,
+                    "similar_images": [
+                        {
+                            "id": "3a39ab96d022fead0ac6103bb90cec33a225c3c3",
+                            "url": "https://crop-health.ams3.cdn.digitaloceanspaces.com/similar_images/1/3a3/9ab96d022fead0ac6103bb90cec33a225c3c3.jpeg",
+                            "license_name": "CC0",
+                            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                            "citation": "Hgy Uf67",
+                            "similarity": 0.594,
+                            "url_small": "https://crop-health.ams3.cdn.digitaloceanspaces.com/similar_images/1/3a3/9ab96d022fead0ac6103bb90cec33a225c3c3.small.jpeg"
+                        },
+                        {
+                            "id": "08bb8ef58894e77e7d2b68eb69b81da44d69dc2d",
+                            "url": "https://crop-health.ams3.cdn.digitaloceanspaces.com/similar_images/1/08b/b8ef58894e77e7d2b68eb69b81da44d69dc2d.jpeg",
+                            "license_name": "CC0",
+                            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                            "citation": "古國順",
+                            "similarity": 0.582,
+                            "url_small": "https://crop-health.ams3.cdn.digitaloceanspaces.com/similar_images/1/08b/b8ef58894e77e7d2b68eb69b81da44d69dc2d.small.jpeg"
+                        }
+                    ],
+                    "details": {
+                        "language": "en",
+                        "entity_id": "c35556c0c67c0591"
+                    },
+                    "scientific_name": "healthy"
+                },
+                {
+                    "id": "2b5e0c7a88a5eb5b",
+                    "name": "Pierce's Disease",
+                    "probability": 0.0913,
+                    "similar_images": [
+                        {
+                            "id": "b8c89d8e89654429f2e538d2c84c94d89e8ed0ae",
+                            "url": "https://crop-health.ams3.cdn.digitaloceanspaces.com/similar_images/1/b8c/89d8e89654429f2e538d2c84c94d89e8ed0ae.jpg",
+                            "license_name": "CC BY 3.0",
+                            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                            "citation": "lisemari",
+                            "similarity": 0.58,
+                            "url_small": "https://crop-health.ams3.cdn.digitaloceanspaces.com/similar_images/1/b8c/89d8e89654429f2e538d2c84c94d89e8ed0ae.small.jpg"
+                        },
+                        {
+                            "id": "586b5082db937a4e95c5006b32adf0fde5043bf3",
+                            "url": "https://crop-health.ams3.cdn.digitaloceanspaces.com/similar_images/1/586/b5082db937a4e95c5006b32adf0fde5043bf3.jpg",
+                            "license_name": "CC0",
+                            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                            "citation": "Mauro Piergiacomi",
+                            "similarity": 0.56,
+                            "url_small": "https://crop-health.ams3.cdn.digitaloceanspaces.com/similar_images/1/586/b5082db937a4e95c5006b32adf0fde5043bf3.small.jpg"
+                        }
+                    ],
+                    "details": {
+                        "language": "en",
+                        "entity_id": "2b5e0c7a88a5eb5b"
+                    },
+                    "scientific_name": "Xylella fastidiosa"
+                },
+                {
+                    "id": "332e5a8ca8b185fc",
+                    "name": "powdery mildew",
+                    "probability": 0.0726,
+                    "similar_images": [
+                        {
+                            "id": "b765bcefe221778906717738b5107dfb1743336f",
+                            "url": "https://crop-health.ams3.cdn.digitaloceanspaces.com/similar_images/1/b76/5bcefe221778906717738b5107dfb1743336f.jpeg",
+                            "license_name": "CC0",
+                            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                            "citation": "no rights reserved",
+                            "similarity": 0.545,
+                            "url_small": "https://crop-health.ams3.cdn.digitaloceanspaces.com/similar_images/1/b76/5bcefe221778906717738b5107dfb1743336f.small.jpeg"
+                        },
+                        {
+                            "id": "f2c1a208a894eab500ffb0621a2ae8f675f06298",
+                            "url": "https://crop-health.ams3.cdn.digitaloceanspaces.com/similar_images/1/f2c/1a208a894eab500ffb0621a2ae8f675f06298.jpg",
+                            "similarity": 0.54,
+                            "url_small": "https://crop-health.ams3.cdn.digitaloceanspaces.com/similar_images/1/f2c/1a208a894eab500ffb0621a2ae8f675f06298.small.jpg"
+                        }
+                    ],
+                    "details": {
+                        "language": "en",
+                        "entity_id": "332e5a8ca8b185fc"
+                    },
+                    "scientific_name": "Erysiphaceae"
+                }
+            ]
+        },
+        "crop": {
+            "suggestions": [
+                {
+                    "id": "d5546bd31bdd3e76",
+                    "name": "soybean",
+                    "probability": 0.0003,
+                    "similar_images": [
+                        {
+                            "id": "8af00cb084469152cfa42123147d3d87535b357b",
+                            "url": "https://crop-health.ams3.cdn.digitaloceanspaces.com/similar_images/1/8af/00cb084469152cfa42123147d3d87535b357b.jpg",
+                            "license_name": "CC BY 4.0",
+                            "license_url": "https://creativecommons.org/licenses/by/4.0/",
+                            "citation": "ttimmy",
+                            "similarity": 0.101,
+                            "url_small": "https://crop-health.ams3.cdn.digitaloceanspaces.com/similar_images/1/8af/00cb084469152cfa42123147d3d87535b357b.small.jpg"
+                        },
+                        {
+                            "id": "6bd00329cde0feb904c4ac2c1f348d1bec4daeb1",
+                            "url": "https://crop-health.ams3.cdn.digitaloceanspaces.com/similar_images/1/6bd/00329cde0feb904c4ac2c1f348d1bec4daeb1.jpeg",
+                            "license_name": "CC BY 4.0",
+                            "license_url": "https://creativecommons.org/licenses/by/4.0/",
+                            "citation": "Dmitrii Mostovoi",
+                            "similarity": 0.082,
+                            "url_small": "https://crop-health.ams3.cdn.digitaloceanspaces.com/similar_images/1/6bd/00329cde0feb904c4ac2c1f348d1bec4daeb1.small.jpeg"
+                        }
+                    ],
+                    "details": {
+                        "language": "en",
+                        "entity_id": "d5546bd31bdd3e76"
+                    },
+                    "scientific_name": "Glycine max"
+                }
+            ]
+        }
+    },
+    "status": "COMPLETED",
+    "sla_compliant_client": true,
+    "sla_compliant_system": true,
+    "created": 1741687914.381458,
+    "completed": 1741687914.991052
+}
